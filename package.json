@@ -3,18 +3,27 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "types": "module",
   "scripts": {
-    "start" : "node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevAbidHasan/efootball-registration-server.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DevAbidHasan/efootball-registration-server/issues"
+  },
+  "homepage": "https://github.com/DevAbidHasan/efootball-registration-server#readme",
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
-    "mongodb": "^7.0.0"
+    "mysql2": "^3.16.2"
   }
 }
